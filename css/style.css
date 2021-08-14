@@ -1,0 +1,303 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+  min-height: 100vh;
+}
+
+.body__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.parrafo {
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 2px solid #cb6153;
+}
+
+.header__content {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__links {
+  list-style-type: none;
+  gap: 24px;
+  display: flex;
+}
+
+.header__campo:hover {
+  color: rgb(193, 0, 45);
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.hero {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  background-image: url(../assets/banner-principal.png);
+  background-size: cover;
+}
+
+.hero__title {
+  margin-left: 5%;
+  color: rgb(230, 109, 109);
+}
+
+/*--------------------------------------------------------------
+# Productos
+--------------------------------------------------------------*/
+.colecciones {
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+}
+
+.colecciones__productos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  gap: 5%;
+}
+
+.colecciones__productos2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.colecciones__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  margin-top: 48px;
+}
+
+.colecciones__item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 565px;
+  margin-top: 48px;
+}
+
+.colecciones__item2:hover {
+  width: 26%;
+  height: 26%;
+  border: 1px solid #b16565;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 12px;
+  box-shadow: rgb(193, 193, 193);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cb6153;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.btn__text {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Pagina Sobre Nosotros
+--------------------------------------------------------------*/
+
+.nosotros {
+  display: flex;
+  gap: 48px;
+  margin: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nosotros__img {
+  display: flex;
+  width: 140%;
+}
+
+.nosotros__equipo {
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+}
+
+.nosotros__personas {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 10%;
+}
+
+.nosotros__miembro {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 12px;
+}
+
+.nosotros__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+/*--------------------------------------------------------------
+# Contacto Formulario
+--------------------------------------------------------------*/
+
+.formulario {
+  width: 100%;
+  margin: 5% 5% 5% 5%;
+}
+
+.formulario__campos {
+  margin: 5% 5% 5% 5%;
+  border: none;
+  padding: 12px;
+}
+
+.formulario__inputs {
+  display: flex;
+  gap: 24px;
+}
+
+.input {
+  border: 2px solid #cb6153;
+  height: 36px;
+  border-radius: 4px;
+  margin-top: 6px;
+  width: 80%;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btnreset {
+  background-color: #fff;
+  border: 1px solid #b16565;
+  padding: 12px;
+}
+
+.btnenviar {
+  background-color: #b16565;
+  color: #fff;
+  padding: 12px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(230, 229, 229);
+  padding: 12px;
+  overflow: hidden;
+}
+
+.footer__seccion {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+
+.footer__title {
+  display: flex;
+}
+
+.footer__colum {
+  padding: 0px 24px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.footer__legales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__redes {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
+
+/*--------------------------------------------------------------
+# Pagina Sobre Sucursales
+--------------------------------------------------------------*/
+
+.sucursales__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sucursales {
+  display: flex;
+  gap: 48px;
+  margin: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sucursales__img {
+  display: flex;
+}

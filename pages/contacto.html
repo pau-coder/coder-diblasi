@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - My Style</title>
+    <!-- Google Fonts / Mis Tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Archivo css -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!--menu-->
+    <section class="header">
+      <div class="header__content">
+        <img href="../index.html" src="../assets/logo.png" alt="logotipo" />
+        <nav>
+          <ul class="header__links">
+            <li><a class="header__campo" href="../index.html">Home</a></li>
+            <li>
+              <a class="header__campo" href="productos.html">Productos</a>
+            </li>
+            <li>
+              <a class="header__campo" href="sobrenosotros.html"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li>
+              <a class="header__campo" href="sucursales.html">Sucursales</a>
+            </li>
+            <li>
+              <a class="header__campo" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!--fin menu-->
+
+    <!--formulario de contacto-->
+    <div class="formulario">
+      <h1>Contactate con Nosotros!</h1>
+      <form class="form" action="">
+        <fieldset class="formulario__campos">
+          <div class="formulario__inputs">
+            <div>
+              <label for="nombre">Nombre</label>
+              <br />
+              <input class="input" type="text" id="nombre" name="nombre" />
+            </div>
+
+            <div>
+              <label for="apellido">Apellido</label>
+              <br />
+              <input class="input" type="text" id="apellido" name="apellido" />
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div>
+            <label for="email">Correo electronico</label>
+            <br />
+            <input class="input" type="email" id="email" name="email" />
+          </div>
+
+          <br /><br />
+
+          <div>
+            <label for="comentario">Comentarios</label>
+            <br />
+            <textarea
+              class="input"
+              name="comentario"
+              id="comentario"
+              rows="10"
+              cols="10"
+            >
+        Ingrese sus comentarios</textarea
+            >
+          </div>
+
+          <div>
+            <label for="newslettersubscription"
+              >¿Desea recibir el Newsletter?</label
+            >
+            <input
+              type="checkbox"
+              id="newslettersubscription"
+              name="newsletter"
+              value="yes"
+            />
+          </div>
+
+          <br /><br />
+
+          <br /><br />
+
+          <input class="btnreset" type="reset" value="Limpiar formulario" />
+          <input class="btnenviar" type="submit" value="Enviar formulario" />
+          <br />
+        </fieldset>
+      </form>
+    </div>
+    <!-- fin formulario de contacto-->
+
+    <!--footer-->
+    <section class="footer">
+      <div class="footer__seccion">
+        <div class="footer__title">
+          <h4>MY STYLE</h4>
+        </div>
+
+        <div class="footer__colum">
+          <h5>Institucionales</h5>
+          <ul class="footer__links">
+            <li><a>Sobre nosotros</a></li>
+            <li><a>Sucursales</a></li>
+            <li><a>Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__colum">
+          <h5>Productos</h5>
+          <ul class="footer__links">
+            <li><a>Zapatillas</a></li>
+            <li><a>Accesorios</a></li>
+            <li><a>Indumentaria</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legales">
+        <p>©Sitio coder house, Inc. 2021</p>
+        <ul class="footer__redes">
+          <li><a>Facebook</a></li>
+          <li><a>Instagram</a></li>
+          <li><a>Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--fin footer-->
+  </body>
+</html>
