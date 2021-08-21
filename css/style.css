@@ -49,10 +49,6 @@ ul {
 # Header/navbar
 --------------------------------------------------------------*/
 
-.nav-link {
-  color: #b16565;
-}
-
 .header {
   display: flex;
   background-color: #fff;
