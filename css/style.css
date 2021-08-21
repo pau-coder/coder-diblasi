@@ -3,6 +3,7 @@
   padding: 0px;
   overflow-x: hidden;
 }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -45,8 +46,13 @@ ul {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Header/navbar
 --------------------------------------------------------------*/
+
+.nav-link {
+  color: #b16565;
+}
+
 .header {
   display: flex;
   background-color: #fff;
@@ -198,47 +204,13 @@ ul {
 /*--------------------------------------------------------------
 # Contacto Formulario
 --------------------------------------------------------------*/
-
-.formulario {
-  width: 100%;
-  margin: 5% 5% 5% 5%;
+form {
+  padding: 5%;
 }
 
-.formulario__campos {
-  margin: 5% 5% 5% 5%;
-  border: none;
-  padding: 12px;
+.contacto__tit {
+  padding: 5%;
 }
-
-.formulario__inputs {
-  display: flex;
-  gap: 24px;
-}
-
-.input {
-  border: 2px solid #cb6153;
-  height: 36px;
-  border-radius: 4px;
-  margin-top: 6px;
-  width: 80%;
-}
-
-label {
-  font-family: "Montserrat", sans-serif;
-}
-
-.btnreset {
-  background-color: #fff;
-  border: 1px solid #b16565;
-  padding: 12px;
-}
-
-.btnenviar {
-  background-color: #b16565;
-  color: #fff;
-  padding: 12px;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
