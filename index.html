@@ -70,8 +70,52 @@
     <!--fin navbar boostrap-->
 
     <!--hero-->
-    <div class="hero">
-      <h1 class="hero__title">Lookeate bien con My Style</h1>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/banner-principal.png"
+            class="d-block w-100"
+            alt="banner-principal"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/banner-productos.png"
+            class="d-block w-100"
+            alt="banner-productos"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/banner-principal.png"
+            class="d-block w-100"
+            alt="banner-principal"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!--fin hero-->
 
@@ -83,40 +127,37 @@
           <div class="colecciones__item">
             <img src="assets/product1.png" />
             <h3>Indumentaria</h3>
-            <a
+            <button
               href="pages/productos.html"
-              class="btn btn-dark"
-              tabindex="-1"
-              role="button"
-              aria-disabled="true"
-              >Ver categoría</a
+              type="button"
+              class="btn btn-outline-dark"
             >
+              Ver categoria
+            </button>
           </div>
 
           <div class="colecciones__item">
             <img src="assets/product2.png" />
             <h3>Accesorios</h3>
-            <a
+            <button
               href="pages/productos.html"
-              class="btn btn-dark"
-              tabindex="-1"
-              role="button"
-              aria-disabled="true"
-              >Ver categoría</a
+              type="button"
+              class="btn btn-outline-dark"
             >
+              Ver categoria
+            </button>
           </div>
 
           <div class="colecciones__item">
             <img src="assets/product3.png" />
             <h3>Zapatillas</h3>
-            <a
+            <button
               href="pages/productos.html"
-              class="btn btn-dark"
-              tabindex="-1"
-              role="button"
-              aria-disabled="true"
-              >Ver categoría</a
+              type="button"
+              class="btn btn-outline-dark"
             >
+              Ver categoria
+            </button>
           </div>
         </div>
       </div>
@@ -134,14 +175,13 @@
             concepto del lujo. Cada prenda de Jazmín está proyectada por sí sola
             y tiene su propio fundamento.
           </p>
-          <a
+          <button
             href="pages/sobrenosotros.html"
-            class="btn btn-dark"
-            tabindex="-1"
-            role="button"
-            aria-disabled="true"
-            >Ver más</a
+            type="button"
+            class="btn btn-outline-dark"
           >
+            Ver más
+          </button>
         </div>
       </div>
       <!--fin seccion sobre nosotros-->
@@ -154,14 +194,13 @@
             Podes encontrar nuestros locales en CABA y en muchos lugares del
             Gran Buenos Aires.
           </p>
-          <a
+          <button
             href="pages/sucursales.html"
-            class="btn btn-dark"
-            tabindex="-1"
-            role="button"
-            aria-disabled="true"
-            >Ver más</a
+            type="button"
+            class="btn btn-outline-dark"
           >
+            Ver más
+          </button>
         </div>
         <div class="sucursales__img"><img src="assets/sucursales.png" /></div>
       </div>
