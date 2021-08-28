@@ -69,7 +69,7 @@
     </nav>
     <!--fin navbar boostrap-->
 
-    <!--hero-->
+    <!--hero boostrap js-->
     <div
       id="carouselExampleControls"
       class="carousel slide"
@@ -92,7 +92,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="assets/banner-principal.png"
+            src="assets/banner-principal2.png"
             class="d-block w-100"
             alt="banner-principal"
           />
@@ -117,51 +117,45 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!--fin hero-->
+    <!--fin boostrap js-->
 
-    <div class="body__content">
-      <!--seccion productos-->
-      <div class="colecciones">
-        <h2>Nuestras Colecciones</h2>
-        <div class="colecciones__productos">
-          <div class="colecciones__item">
-            <img src="assets/product1.png" />
-            <h3>Indumentaria</h3>
-            <button
-              href="pages/productos.html"
-              type="button"
-              class="btn btn-outline-dark"
-            >
-              Ver categoria
-            </button>
-          </div>
-
-          <div class="colecciones__item">
-            <img src="assets/product2.png" />
-            <h3>Accesorios</h3>
-            <button
-              href="pages/productos.html"
-              type="button"
-              class="btn btn-outline-dark"
-            >
-              Ver categoria
-            </button>
-          </div>
-
-          <div class="colecciones__item">
-            <img src="assets/product3.png" />
-            <h3>Zapatillas</h3>
-            <button
-              href="pages/productos.html"
-              type="button"
-              class="btn btn-outline-dark"
-            >
-              Ver categoria
-            </button>
+    <!-- inicio departamentos card boostrap-->
+    <div class="categorias__contenedor">
+    <h1 class="text-center">Categorias</h1>
+    <div class="categorias__cards"> 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-center">
+          <img src="assets/product1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Indumentaria</h5>
+            <button href="pages/productos.html" type="button" class="btn btn-outline-dark">Ver categoria</button>
           </div>
         </div>
       </div>
-      <!--fin seccion productos-->
+      <div class="col">
+        <div class="card text-center">
+          <img src="assets/product2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Carteras</h5>
+            <button href="pages/productos.html"" type="button" class="btn btn-outline-dark">Ver categoria</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img src="assets/product3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Zapatillas</h5>
+            <button href="pages/productos.html"" type="button" class="btn btn-outline-dark">Ver categoria</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <!--fin departamentos card boostrap -->
+
 
       <!--seccion sobre nosotros-->
       <div class="nosotros">
@@ -206,41 +200,43 @@
       </div>
       <!--fin seccion sucursales-->
 
-      <!--footer-->
-      <section class="footer">
-        <div class="footer__seccion">
-          <div class="footer__title">
-            <h4>MY STYLE</h4>
-          </div>
 
-          <div class="footer__colum">
-            <h5>Institucionales</h5>
-            <ul class="footer__links">
-              <li><a>Sobre nosotros</a></li>
-              <li><a>Sucursales</a></li>
-              <li><a>Contacto</a></li>
-            </ul>
-          </div>
-
-          <div class="footer__colum">
-            <h5>Productos</h5>
-            <ul class="footer__links">
-              <li><a>Zapatillas</a></li>
-              <li><a>Accesorios</a></li>
-              <li><a>Indumentaria</a></li>
-            </ul>
-          </div>
+    <!--footer-->
+    <section class="footer">
+      <div class="footer__seccion">
+        <div class="footer__title">
+          <h4>MY STYLE</h4>
         </div>
-        <div class="footer__legales">
-          <p>©Sitio coder house, Inc. 2021</p>
-          <ul class="footer__redes">
-            <li><a>Facebook</a></li>
-            <li><a>Instagram</a></li>
-            <li><a>Twitter</a></li>
+
+        <div class="footer__colum">
+          <h5>Institucionales</h5>
+          <ul class="footer__links">
+            <li><a>Sobre nosotros</a></li>
+            <li><a>Sucursales</a></li>
+            <li><a>Contacto</a></li>
           </ul>
         </div>
-      </section>
-      <!--fin footer-->
+
+        <div class="footer__colum">
+          <h5>Productos</h5>
+          <ul class="footer__links">
+            <li><a>Zapatillas</a></li>
+            <li><a>Accesorios</a></li>
+            <li><a>Indumentaria</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legales">
+        <p>©Sitio coder house, Inc. 2021</p>
+        <ul class="footer__redes">
+          <li><a>Facebook</a></li>
+          <li><a>Instagram</a></li>
+          <li><a>Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--fin footer-->
+
     </div>
   </body>
 </html>

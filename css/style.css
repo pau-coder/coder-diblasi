@@ -1,0 +1,154 @@
+.footer {
+  background-color: #e8e8e8;
+  padding: 12px;
+  overflow: hidden; }
+  .footer__seccion {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px; }
+  .footer__title {
+    display: flex; }
+  .footer__colum {
+    padding: 0px 24px; }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; }
+  .footer__legales {
+    display: flex;
+    justify-content: space-between; }
+  .footer__redes {
+    display: flex;
+    list-style-type: none;
+    gap: 12px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  min-height: 100vh;
+  background-color: #f0eeee; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #272626; }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #272626;
+  text-align: center; }
+
+ul {
+  text-decoration: none; }
+
+.parrafo {
+  padding: 12px 24px 12px 24px;
+  text-align: center; }
+
+.categorias__contenedor {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px; }
+
+.nosotros {
+  display: flex;
+  margin: 5% 10% 10% 10%;
+  justify-content: space-between;
+  align-items: center; }
+  .nosotros__img {
+    padding: 0px 48px; }
+
+.sucursales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%; }
+  .sucursales__img {
+    grid-area: sucursales__img;
+    display: flex;
+    justify-content: center;
+    padding: 10%; }
+
+.colecciones {
+  grid-area: colecciones;
+  text-align: center;
+  margin: 5% 5% 5% 5%; }
+  .colecciones__productos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    gap: 5%; }
+  .colecciones__productos2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .colecciones__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin-top: 48px; }
+  .colecciones__item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 565px;
+    margin-top: 48px; }
+  .colecciones__item2:hover {
+    width: 26%;
+    height: 26%;
+    border: 1px solid #e7b2a4;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 12px;
+    box-shadow: #e8e8e8; }
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7b2a4;
+  height: 40px;
+  border-radius: 6px; }
+  .btn:hover {
+    background-color: #272626; }
+  .btn__text {
+    color: #f0eeee; }
+
+.contacto__tit {
+  margin: 5%; }
+
+.contacto__form {
+  margin: 5%; }
+
+.nosotros__equipo {
+  grid-area: nosotros__equipo;
+  text-align: center;
+  margin: 5% 5% 5% 5%; }
+
+.nosotros__personas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  gap: 5%; }
+
+.nosotros__miembro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  margin-top: 48px;
+  gap: 24px; }
+
+.nosotros__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; }

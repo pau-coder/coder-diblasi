@@ -1,0 +1,38 @@
+// FOOTER //
+
+.footer {
+  background-color: $gris;
+  padding: 12px;
+  overflow: hidden;
+
+  &__seccion {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+  }
+
+  &__title {
+    display: flex;
+  }
+
+  &__colum {
+    padding: 0px 24px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  &__legales {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__redes {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+  }
+}

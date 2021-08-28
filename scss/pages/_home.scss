@@ -1,0 +1,78 @@
+// HOME //
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+// GENERALES //
+
+body {
+  min-height: 100vh;
+  background-color: $blanco;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: $negro;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: $negro;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.parrafo {
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+}
+
+// CATEGORIAS //
+
+.categorias {
+  &__contenedor {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+// NOSOTROS //
+
+.nosotros {
+  display: flex;
+  margin: 5% 10% 10% 10%;
+  justify-content: space-between;
+  align-items: center;
+
+  &__img {
+    padding: 0px 48px;
+  }
+}
+
+// SUCURSALES //
+
+.sucursales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+
+  &__img {
+    grid-area: sucursales__img;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+  }
+}
