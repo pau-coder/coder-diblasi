@@ -1,0 +1,31 @@
+// SUCURSALES //
+
+.nosotros {
+  &__equipo {
+    grid-area: nosotros__equipo;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+  }
+
+  &__personas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    gap: 5%;
+  }
+
+  &__miembro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 48px;
+    gap: 24px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
