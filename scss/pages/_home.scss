@@ -27,6 +27,7 @@ a {
   text-decoration: none;
   color: $negro;
   text-align: center;
+  list-style-type: none;
 }
 
 ul {
@@ -59,9 +60,6 @@ ul {
   &__img {
     padding: 0px 48px;
   }
-}
-
-@media screen (max-width: 800px) {
 }
 
 // SUCURSALES //

@@ -1,5 +1,11 @@
 // SUCURSALES //
 
+.mapa {
+  display: flex;
+  margin: 5%;
+  justify-content: center;
+}
+
 .nosotros {
   &__equipo {
     grid-area: nosotros__equipo;
