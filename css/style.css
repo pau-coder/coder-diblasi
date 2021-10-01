@@ -123,28 +123,19 @@ ul {
   flex-direction: column;
   gap: 24px; }
 
-.footer {
-  background-color: #e8e8e8;
-  padding: 12px;
-  overflow: hidden; }
-  .footer__seccion {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0px; }
-  .footer__title {
-    display: flex; }
-  .footer__colum {
-    padding: 0px 24px; }
-  .footer__links {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-decoration: none;
-    color: #272626; }
-  .footer__legales {
-    display: flex;
-    justify-content: space-between; }
-  .footer__redes {
-    display: flex;
-    list-style-type: none;
-    gap: 12px; }
+.text-uppercase {
+  text-align: left; }
+
+.list-unstyled {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left; }
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
+  color: #272626; }
+
+.page-footer {
+  background-color: #ebebeb; }

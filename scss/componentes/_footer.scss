@@ -1,40 +1,22 @@
 // FOOTER //
 
-.footer {
-  background-color: $gris;
-  padding: 12px;
-  overflow: hidden;
+.text-uppercase {
+  text-align: left;
+}
 
-  &__seccion {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0px;
-  }
+.list-unstyled {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
 
-  &__title {
-    display: flex;
-  }
+.links {
+  text-decoration: none;
+  list-style-type: none;
+  color: $negro;
+}
 
-  &__colum {
-    padding: 0px 24px;
-  }
-
-  &__links {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-decoration: none;
-    color: $negro;
-  }
-
-  &__legales {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  &__redes {
-    display: flex;
-    list-style-type: none;
-    gap: 12px;
-  }
+.page-footer {
+  background-color: rgb(235, 235, 235);
 }
