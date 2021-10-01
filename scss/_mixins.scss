@@ -1,1 +1,25 @@
 // MIXINS //
+
+$root-size: 12px;
+$default-width: 1200px;
+
+//OPERACIONES
+
+.pruebaclase {
+  font-size: 4 * $root-size;
+  width: $default-width / 12;
+}
+
+//CONDICIONALES
+
+.pruebaclase {
+  @if $root-size == 4px {
+    color: $gris;
+  }
+
+  @if $root-size != 4px {
+    color: $negro;
+  } @else if $root-size==6px {
+    color: $gris;
+  }
+}
